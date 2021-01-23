@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+#user-list {
+	width: 500px;
+}
+
+.user-card {
+	border: 1px solid #9e9e9e;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.user-card .user-info {
+	margin-left: 15px;
+}
+
+.user-card img {
+	min-height: 64px;
+	min-width: 64px;
+}
