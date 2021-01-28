@@ -113,7 +113,7 @@ numberArray.forEach( function (item, index, list){
 	const isLast = index === list.length -1
 
 	if (isLast) {
-		console.log('it was the last number')
+		console.log('it was    the last number')
 	}
 
 
@@ -126,19 +126,19 @@ people.forEach(function(person){
 
 })
 
-function showFullName(person, index, list) {
-	console.log(person.getFullName())
+// function showFullName(person, index, list) {
+// 	console.log(person.getFullName())
 
-	const isLast = index === list.length -1
+// 	const isLast = index === list.length -1
 
-	if (isLast) {
-		console.log('it was the last number')
-	}
+// 	if (isLast) {
+// 		console.log('it was the last number')
+// 	}
 
-}
+// }
 
-people.forEach(showFullName);
-morePeople.forEach(showFullName);
+// people.forEach(showFullName);
+// morePeople.forEach(showFullName);
 
 
 const peopleWithFullName = morePeople.map(function(item, index, list){
